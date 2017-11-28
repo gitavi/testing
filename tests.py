@@ -1,4 +1,6 @@
 from mymean import mean
+import numpy as np
+import numpy.testing as npt
 
 def test_mean():
     assert mean([1]) == 1
@@ -36,5 +38,6 @@ def test_complex():
     exp = NotImplemented
     assert obs == exp
 
-def test_broken():
-    1/0
+def test_np_mean():
+    uni = np.random.uniform(size=10_000)
+    npt.assert_allclose(mean(uni), np.mean(uni))
