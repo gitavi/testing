@@ -1,1 +1,1 @@
-# testing [![Build Status](https://travis-ci.org/gitavi/testing.svg?branch=master)](https://travis-ci.org/gitavi/testing)
+# testing [![Build Status](https://travis-ci.org/gitavi/testing.svg?branch=master)](https://travis-ci.org/gitavi/testing) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/gitavi/testing/master)
