@@ -14,7 +14,7 @@ install:
   - conda info -a
 
   # List your dependencies here to create the necessary environment
-  - conda create -q -f environment.yml
+  - conda create -q -n -f environment.yml
   - source activate test-environment
 
 script:
